@@ -15,3 +15,12 @@ git init avoid running when already within a repo folder check using git status 
 git add stages tracked changes in the repo for commit
 git commit opens vim if no editor configured to enter required message
 git commit -m "Message" allows for adding commit message without opening editor
+git log displays all of repo actions
+code . opens repo in VS code
+
+Git Documents https://git-scm.com/docs
+
+Atomic Commits - keep each commit focused on a single thing
+this makes rolling back much easier
+
+git config --global core.editor "code --wait" sets VS Code as editor with wait for commit message

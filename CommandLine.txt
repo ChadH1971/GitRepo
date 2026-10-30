@@ -1,0 +1,12 @@
+Git Bash Command Line
+
+ls - list can take an argument of a folder name
+start . open file explorer
+clear
+pwd print working directoy
+cd change directory
+touch creates a file
+mkdir creates a directory
+rm remove
+rm -rf removes a directory by recursive force flag
+

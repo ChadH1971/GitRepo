@@ -10,3 +10,8 @@ mkdir creates a directory
 rm remove
 rm -rf removes a directory by recursive force flag
 
+git status
+git init avoid running when already within a repo folder check using git status after cd to directory
+git add stages tracked changes in the repo for commit
+git commit opens vim if no editor configured to enter required message
+git commit -m "Message" allows for adding commit message without opening editor

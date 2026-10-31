@@ -49,3 +49,6 @@ git switch branchName
 git checkout does more than git switch
 git switch -c creates branch and switches in the same Command
 git checkout -b is same as git switch -c 
+git branch -d deletes branch if merged cannot be on the branch to delete
+git branch -D force deletes if not merged use carefully cannot be on the branch to delete
+git branch -m renames a branch must be on the branch to rename

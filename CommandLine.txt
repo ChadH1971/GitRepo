@@ -46,3 +46,6 @@ BRANCHING COMMANDS
 git branch shows all branches
 git branch branchName creates a new branch no spaces and meaningful name
 git switch branchName
+git checkout does more than git switch
+git switch -c creates branch and switches in the same Command
+git checkout -b is same as git switch -c 

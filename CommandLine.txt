@@ -27,3 +27,12 @@ git config --global core.editor "code --wait" sets VS Code as editor with wait f
 
 git log --oneline important to keep first line of commit message as a summary overview
 commiting with a GUI using GitKraken
+git commit --amend only works on previous commit if no new commits, also allows change to commit message
+
+any files that contain secrets can be added to a file at the root level named .gitignore
+the .gitignore file is tracked but any files or directories listed in the .gitignore file 
+will not be tracked
+
+Rename master branch to main
+
+LAST COMMIT BEFORE BRANCHING

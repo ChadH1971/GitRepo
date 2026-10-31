@@ -1,5 +1,7 @@
 Git Bash Command Line
 
+COMMANDS FOR NAVIGATION
+
 ls - list can take an argument of a folder name
 start . open file explorer
 clear
@@ -9,6 +11,8 @@ touch creates a file
 mkdir creates a directory
 rm remove
 rm -rf removes a directory by recursive force flag
+
+GIT COMMANDS
 
 git status
 git init avoid running when already within a repo folder check using git status after cd to directory
@@ -36,3 +40,9 @@ will not be tracked
 Rename master branch to main
 
 LAST COMMIT BEFORE BRANCHING
+
+BRANCHING COMMANDS
+
+git branch shows all branches
+git branch branchName creates a new branch no spaces and meaningful name
+git switch branchName

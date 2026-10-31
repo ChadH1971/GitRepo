@@ -24,3 +24,6 @@ Atomic Commits - keep each commit focused on a single thing
 this makes rolling back much easier
 
 git config --global core.editor "code --wait" sets VS Code as editor with wait for commit message
+
+git log --oneline important to keep first line of commit message as a summary overview
+commiting with a GUI using GitKraken

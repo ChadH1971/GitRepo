@@ -52,3 +52,9 @@ git checkout -b is same as git switch -c
 git branch -d deletes branch if merged cannot be on the branch to delete
 git branch -D force deletes if not merged use carefully cannot be on the branch to delete
 git branch -m renames a branch must be on the branch to rename
+
+MERGING
+git merge HEAD must be on the branch to merge to. (fast forward merge)
+merge conflicts will arise if separate changes to the same file such as a line deleted
+in one branch and changed in another branch cannot be automatically resolved. Correct
+conflicts to the file and remove the conflict markers to complete the merge. 

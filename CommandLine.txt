@@ -58,3 +58,9 @@ git merge HEAD must be on the branch to merge to. (fast forward merge)
 merge conflicts will arise if separate changes to the same file such as a line deleted
 in one branch and changed in another branch cannot be automatically resolved. Correct
 conflicts to the file and remove the conflict markers to complete the merge. 
+
+git diff compares unstaged changes with working directoy designating a and b. 
+a is usually the working directory. a is identified with - and b with +
+context included shows the starting row and number of rows in the context for each side.
+deletions are indicated in red. insertions are indicated in green.
+

@@ -25,16 +25,22 @@
 + git status
   very useful tool to show where you are with respect to repo
 + git init
-  -avoid running when already within a repo folder 
-  -check using git status after cd to directory
+  + avoid running when already within a repo folder 
+  + check using git status after cd to directory
 + git add .
-  -stages tracked changes in all files in the current repo folder/branch for commit
-+ git add "<filename>"
-  -stages tracked changes in the specified filename
-git commit opens vim if no editor configured to enter required message
-git commit -m "Message" allows for adding commit message without opening editor
-git log displays all of repo actions
-code . opens repo in VS code
+  - stages tracked changes in all files in the current repo folder/branch for commit
++ git add "filename"
+  - stages tracked changes in the specified filename
++ git commit 
+  + opens vim if no editor configured to enter required message
++ git commit -m "Message" 
+  + allows for adding commit message without opening editor
++ git log 
+  + displays all of repo actions
++ git log --oneline
+  + reduces log entries to single line allowing for easier reading
++ code . 
+  + opens repo in VS code
 
 Git Documents https://git-scm.com/docs
 

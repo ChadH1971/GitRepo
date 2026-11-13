@@ -70,3 +70,49 @@ git diff HEAD filename limits display to specified filename
 git diff --staged filename limits display to specified filename
 git diff branch1..branch2 shows difference between specified branches
 git diff commit1..commit2 (use hash identifier) shows difference between specified commits
+
+git stash saves changes that you are not ready to commit so that you can move to a different branch
+there can be multiple stashes if you use apply instead of pop this also lets you apply a stash in different branches.
+git stash pop removes most recently saved changes from stash and applies them
+git stash list shows what is in the stash the message refers only to what was last commit
+git stash apply stash@{0} is an index used to apply a particular stash
+git stash drop stash@{0} removes that index from the stash
+
+
+git checkout commit hash - detached HEAD state, allows to inspect file(s) at a particular
+commit or create a new branch from a point in the past
+
+git checkout HEAD~1 previous commit (parent), ~2 (grand-parent)
+git checkout -- reverts to last commit
+git checkout HEAD filename reverts to last commit
+git restore filename discard changes since last commit
+git restore -- source HEAD~1 filename two commits ago
+git restore -- staged filename remove added file from staging
+
+git reset commit hash takes repo back to selected commit but file changes are left
+intact useful of committed to wrong branchgit reset -- hard commit hash resets HEAD and
+removes changes in working directory
+git revert commit hash undo changes making a new commit to hold what was undone useful 
+especially when collaborating
+
+GIT HUB
+git clone not tied particularly to git hub, can use other host services brings a clone
+of a repo to local with remote already set up
+remote origin is a common convention for naming a remote
+git remote -v shows remote with verbose
+git remote add name url 
+git push -u origin branch sets upstream name of remote and pushes branch to the remote
+git push if upstream was set it is used as default 
+
+git checkout origin/main checks out the main branch from the remote
+tracking branches from cloned repo
+git branch -r shows branches in remote, branches do not automatically appear in list on
+local
+git switch branch name sets up local branch tracking instead of having detached HEAD
+git fetch brings remote changes back to local without merging to local workspace
+git pull updates the local HEAD same as git fetch + git merge
+git pull remote branch merges changes into current branch may result in merge conflicts
+git pull will default to origin and current tracking branch that is setup
+
+
+

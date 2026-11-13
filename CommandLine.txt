@@ -114,5 +114,31 @@ git pull updates the local HEAD same as git fetch + git merge
 git pull remote branch merges changes into current branch may result in merge conflicts
 git pull will default to origin and current tracking branch that is setup
 
+GIT HUB COLLABORATORS
+if private repository, by invitation collaborator can then see the repository and push
+their own changes
+
+READMEs
+mark down links 
+https://daringfireball.net/projects/markdown/
+https://markdown-it.github.io/
+
+GISTS
+Git Hub gists are a way to share information without having to clone or fork from a full
+repository. Can be made private or public.
+
+GH PAGES
+Limited to HTML/CSS/JS - free hosting through Git Hub, not intended for high traffic. 
+Each repo has unlimited project pages.
+Each user has one user page.
+conventionally uses branch called gh-pages with index.html file along with app.CSS
+
+COLLABORATION WORKFLOWS
+centralized workflow - everyone clones the main and works on the main branch.
+can result in the tip of the branch being ahead or behind. Requires pull before pushing 
+Problematic because the codebase is constantly shifting/breaking
+
+
+
 
 

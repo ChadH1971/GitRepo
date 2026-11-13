@@ -138,6 +138,8 @@ centralized workflow - everyone clones the main and works on the main branch.
 can result in the tip of the branch being ahead or behind. Requires pull before pushing 
 Problematic because the codebase is constantly shifting/breaking
 
+Feature Branch workflow - don't work on main "you silly goose"
+
 
 
 
